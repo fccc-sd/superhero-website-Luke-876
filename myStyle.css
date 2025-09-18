@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(182, 8, 8);
+}
+h1, h3
+{color:rgb(0, 0, 0);
+font-family:cursive;}
+p
+{color:rgb(0, 0, 0);
+font-family:Georgia, 'Times New Roman', Times, serif}
+
+ul
+{list-style-image:url(ulsymbol.jpg);
+color: white;}
+
+nav a:visited
+{
+    color:darkblue;
+} 
+
+nav a:hover{
+    text-decoration: solid;
+    color:lightgray
+}
+
+header {
+    font-weight: bold;
+    background-color: cornsilk;
+}
+
+footer {
+    color: gray;
+    ;    
+}
+
+img {float:inline-start;
+margin: 10px;
+min-height: 300px;
+min-width: 200px;}
+
+#Comics 
+{color: white;}
+
+#Recent
+{color: white;}
+
