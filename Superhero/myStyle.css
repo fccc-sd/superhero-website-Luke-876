@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(182, 8, 8);
+}
+h1, h3
+{color:rgb(0, 0, 0);
+font-family:cursive;}
+p
+{color:rgb(0, 0, 0);
+font-family:Georgia, 'Times New Roman', Times, serif}
+
+ul
+{list-style-image:url(ulsymbol.jpg);
+color: white;}
+
+nav a:hover{
+    text-decoration: solid;
+    color:lightgray
+}
+
+
