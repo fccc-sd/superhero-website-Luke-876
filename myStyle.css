@@ -6,11 +6,13 @@ h1, h3
 font-family:cursive;}
 p
 {color:rgb(0, 0, 0);
-font-family:Georgia, 'Times New Roman', Times, serif}
+font-family:Georgia, 'Times New Roman', Times, serif;
+clear: left;}
 
-ul
-{list-style-image:url(ulsymbol.jpg);
-color: white;}
+
+
+ol
+{list-style-image: url(ulsymbol.jpg);}
 
 nav a:visited
 {
@@ -19,7 +21,8 @@ nav a:visited
 
 nav a:hover{
     text-decoration: solid;
-    color:lightgray
+    color:lightgray;
+    
 }
 
 header {
@@ -32,14 +35,39 @@ footer {
     ;    
 }
 
-img {float:inline-start;
+img {float:left;
 margin: 10px;
 min-height: 300px;
-min-width: 200px;}
+min-width: 200px;
+}
 
-#Comics 
-{color: white;}
 
-#Recent
-{color: white;}
+ul
+{
+color: white;
+  top: 0;
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;}
+
+  ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+
 
